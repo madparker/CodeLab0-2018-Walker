@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7edcc19e-ba54-4114-8bf3-f1a0a852f35f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab0-2018-Walker/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab0-2018-Walker/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab0-2018-Walker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab0-2018-Walker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab0-2018-Walker/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Audio/Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Audio/Music/Polvo - Fast Canoe.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Audio/Music/Polvo - Fast Canoe.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/ProBuilder Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/ProBuilder Data/Default Material Palette.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/ProBuilder Data/ProBuilderPreferences.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/ProBuilder Data/ProBuilderPreferences.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/BasicDebuggerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/BasicDebuggerTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/LightSwitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/LightSwitch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/MainHallway.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/MainHallway.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/PlayAudioOnTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/PlayAudioOnTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/TeleportOnTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Scripts/TeleportOnTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Editor/CrossPlatformInput.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/HousePrototype16x16x24.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/HousePrototype16x16x24.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PlatformPrototype02x01x02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PlatformPrototype02x01x02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PlatformPrototype04x01x04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PlatformPrototype04x01x04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PlatformPrototype08x01x08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/PlatformPrototype08x01x08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/RampPrototype04x02x02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/RampPrototype04x02x02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/StepsPrototype04x02x02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/StepsPrototype04x02x02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/WallPrototype08x08x01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Models/WallPrototype08x08x01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/CubePrototype08x08x08.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/CubePrototype08x08x08.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype04x01x04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype04x01x04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype08x01x08.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype08x01x08.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype64x01x64.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype64x01x64.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/HousePrototype16x16x24.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/HousePrototype16x16x24.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/JoinInnerPrototype01x06x01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/JoinInnerPrototype01x06x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype02x01x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype02x01x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype04x01x04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype04x01x04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/RampPrototype04x02x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/RampPrototype04x02x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/StepsPrototype04x02x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/StepsPrototype04x02x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/WallPrototype08x08x01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Prefabs/WallPrototype08x08x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/GridEmissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/GridEmissive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchNavyAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchNavyAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchOrangeAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchOrangeAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchTealAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchTealAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchTurquoiseAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchTurquoiseAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchWhiteAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchWhiteAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchYellowAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Prototyping/Textures/SwatchYellowAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ActivateTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ActivateTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/AlphaButtonClickMask.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/AlphaButtonClickMask.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/AutoMoveAndRotate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/AutoMoveAndRotate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/CameraRefocus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/CameraRefocus.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/CurveControlledBob.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/CurveControlledBob.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/DragRigidbody.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/DragRigidbody.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/DynamicShadowSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/DynamicShadowSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/EventSystemChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/EventSystemChecker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/FOVKick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/FOVKick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/FPSCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/FPSCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/FollowTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/FollowTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ForcedReset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ForcedReset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/LerpControlledBob.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/LerpControlledBob.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ObjectResetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ObjectResetter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/PlatformSpecificContent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/PlatformSpecificContent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/SimpleMouseRotator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/SimpleMouseRotator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/SmoothFollow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/SmoothFollow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/TimedObjectActivator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/TimedObjectActivator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/TimedObjectDestructor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/TimedObjectDestructor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/WaypointCircuit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/WaypointCircuit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/WaypointProgressTracker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Standard Assets/Utility/WaypointProgressTracker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Assets/Temp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/NetworkManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeLab0Walker2018/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="631700325">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="145" />
+    <option name="y" value="95" />
+    <option name="width" value="1280" />
+    <option name="height" value="697" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="CodeLab0-2018-Walker" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="CodeLab0-2018-Walker" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="CodeLab0Walker2018" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7edcc19e-ba54-4114-8bf3-f1a0a852f35f" name="Default Changelist" comment="" />
+      <created>1538422954863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538422954863</updated>
+      <workItem from="1538422956406" duration="898000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated .gitignore to be more flexible">
+      <created>1538424225698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538424225698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="898000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="145" y="95" width="1280" height="697" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated .gitignore to be more flexible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore to be more flexible" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
